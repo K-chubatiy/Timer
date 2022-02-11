@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/25f5232e36.js" crossorigin="anonymous"></script>
+
+    <title>Timer </title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo"><i class="fa-solid fa-clock-rotate-left" id="logo"></i></div>
+            <div class="name"><h1>Simple Timer</h1></div>
+        </header>
+        <main class="main">
+            <div class="timer">
+                <div class="timer-block">
+                    <div class="time hour">00</div>
+                    <div class="title">Hours</div>
+                </div>
+                <div class="timer-block">
+                    <div class="time minute">00</div>
+                    <div class="title">Minutes</div>
+                </div>
+                <div class="timer-block">
+                    <div class="time second">00</div>
+                    <div class="title">Seconds</div>
+                </div>
+                <div class="timer-block">
+                    <div class="time millisecond">00</div>
+                    <div class="title">Milliseconds</div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="button start">Start</button>
+                <button class="button pause">Pause</button>
+                <button class="button lap">Lap</button>
+                <button class="button stop">Stop</button>
+            </div>
+        </main>
+        <footer>
+            <p class="reset">Reset</p>
+            <div class="footerLap"></div>
+        </footer>
+    </div>
+</body>
+</html>
